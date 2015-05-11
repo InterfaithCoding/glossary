@@ -7,6 +7,27 @@ A boolean is like a light switch. It can only have two values. Just like a light
 #####Comments
 The # sign is for comments. A comment is a line of text that Python won't try to run as code. It's just for humans to read.
 
+#####Comparators 
+Comparators check if a value is (or is not) equal to, greater than (or equal to), or less than (or equal to) another value.
+
+There are six comparison operators:
+```
+Equal to ==
+Not equal to !=
+Less than <
+Greater than >
+Less than or equal to <=
+Greater than or equal to >=
+
+```
+
+Note that == compares whether two things are equal, and = assigns a value to a variable.
+
+#####Control flow 
+This gives us this ability to choose among outcomes based off what else is happening in the programme.
+
+
+
 #####Exponentiation
 Exponentiation is a maths operator that raises a number to a power of another number e.g. if you want to square a number, i.e. raise 4 to the power of 2 you would type it like this:
 ```
