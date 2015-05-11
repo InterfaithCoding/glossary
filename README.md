@@ -1,5 +1,4 @@
-# glossary
-Glossary of key terms
+# Glossary
 
 #####Boolean
 A boolean is like a light switch. It can only have two values. Just like a light switch can only be on or off, a boolean can only be True or False.
@@ -35,15 +34,7 @@ There are six comparison operators:
 Note that ```==``` compares whether two things are equal, and ```=``` assigns a value to a variable.
 
 #####Control flow 
-This gives us this ability to choose among outcomes based off what else is happening in the programme.
-
-
-
-#####Exponentiation
-Exponentiation is a maths operator that raises a number to a power of another number e.g. if you want to square a number, i.e. raise 4 to the power of 2 you would type it like this:
-```
-4**2
-```
+This gives us this ability to choose among outcomes based off what else is happening in the programme. There are several different ways to introduce control flow in to your programmes. We have learnt about ```if``` and ```else``` statements, as well as loops and ```while```
 
 #####If, elif and else statements
 ```if``` is a conditional statement that executes some specified code after checking if its expression is True.
@@ -86,13 +77,23 @@ else:
 
 The ```elif``` statement is only checked if the original ```if``` statement if False
 
+#####Exponentiation
+Exponentiation (```**```) is a maths operator that raises a number to a power of another number e.g. if you want to square a number, i.e. raise 4 to the power of 2 you would type it like this:
+```
+4**2
+```
+
 #####Modulo
-Modulo returns the remainder from a division. So, if you type 3 % 2, it will return 1, because 2 goes into 3 evenly once, with 1 left over.
+Modulo returns the remainder from a division. So, if you type ```3 % 2```, it will return 1, because 2 goes into 3 evenly once, with 1 left over.
 
 
-#####Printing
-print simply displays your code in the console.
-
+#####Printing and inputting
+```print()``` simply displays the code that you place between the brackets in the console.
+```input()``` accepts a string in between the brackets, prints it, and then waits for the user to type something and press Enter (or Return). Once the user has typed in something and hit Enter, we will lose that value unless we save it in a variable that we can access later. This is easy to do:
+```
+name = input("What's your name?")
+```
+The value of ```name``` is now whatever the user has entered. 
 
 #####Strings
 Strings are extremely useful data types, used to contain text. A string can contain letters, numbers, and symbols. Strings need to be within quotes.
