@@ -4,11 +4,23 @@ Glossary of key terms
 #####Boolean
 A boolean is like a light switch. It can only have two values. Just like a light switch can only be on or off, a boolean can only be True or False.
 
+#####Boolean operators 
+These compare statements and result in boolean values. There are three boolean operators:
+
+* ```and```, which checks if both the statements are True;
+* ```or```, which checks if at least one of the statements is True;
+* ```not```, which gives the opposite of the statement.
+
+Order of operations:
+```not``` is evaluated first;
+```and``` is evaluated next;
+```or``` is evaluated last.
+
 #####Comments
 The # sign is for comments. A comment is a line of text that Python won't try to run as code. It's just for humans to read.
 
 #####Comparators 
-Comparators check if a value is (or is not) equal to, greater than (or equal to), or less than (or equal to) another value.
+Comparators check if a value is (or is not) equal to, greater than (or equal to), or less than (or equal to) another value. Comparisons result in either True or False, which are booleans.
 
 There are six comparison operators:
 
