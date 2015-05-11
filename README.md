@@ -45,7 +45,7 @@ Exponentiation is a maths operator that raises a number to a power of another nu
 4**2
 ```
 
-#####If statements
+#####If and else statements
 ```if``` is a conditional statement that executes some specified code after checking if its expression is True.
 
 ```
@@ -63,6 +63,15 @@ if some_function():
 ```
 
 In the event that some_function() returns True, then the indented block of code after it will be executed. In the event that it returns False, then the indented block will be skipped.
+
+The ```else``` statement complements the ```if``` statement. An if/else pair says: "If this expression is true, run this indented code block; otherwise, run this code after the else statement." Unlike if, else doesn't depend on an expression. For example:
+
+```
+if 8 > 9:
+    print "I don't printed!"
+else:
+    print "I get printed!"
+```
 
 #####Modulo
 Modulo returns the remainder from a division. So, if you type 3 % 2, it will return 1, because 2 goes into 3 evenly once, with 1 left over.
