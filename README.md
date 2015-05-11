@@ -12,15 +12,15 @@ Comparators check if a value is (or is not) equal to, greater than (or equal to)
 
 There are six comparison operators:
 
-Equal to ```==```
-Not equal to !=
-Less than <
-Greater than >
-Less than or equal to <=
-Greater than or equal to >=
+* Equal to ```==```
+* Not equal to ```!=```
+* Less than ```<```
+* Greater than ```>```
+* Less than or equal to ```<=```
+* Greater than or equal to ```>=```
 
 
-Note that == compares whether two things are equal, and = assigns a value to a variable.
+Note that ```==``` compares whether two things are equal, and ```=``` assigns a value to a variable.
 
 #####Control flow 
 This gives us this ability to choose among outcomes based off what else is happening in the programme.
