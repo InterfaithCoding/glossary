@@ -88,8 +88,8 @@ Modulo returns the remainder from a division. So, if you type ```3 % 2```, it wi
 
 
 #####Printing and inputting
-> ```print()``` simply displays the code that you place between the brackets in the console.
-> ```input()``` accepts a string in between the brackets, prints it, and then waits for the user to type something and press Enter (or Return). Once the user has typed in something and hit Enter, we will lose that value unless we save it in a variable that we can access later. This is easy to do:
+* ```print()``` simply displays the code that you place between the brackets in the console.
+* ```input()``` accepts a string in between the brackets, prints it, and then waits for the user to type something and press Enter (or Return). Once the user has typed in something and hit Enter, we will lose that value unless we save it in a variable that we can access later. This is easy to do:
 ```
 name = input("What's your name?")
 ```
