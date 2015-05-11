@@ -126,3 +126,11 @@ A variable stores a piece of data, and gives it a specific name. Think of it lik
 favouriteColor = "lime green"
 ```
 
+#####While loops
+A While loop permits code to execute repeatedly until a certain condition is met. This is useful if the number of iterations required to complete a task is unknown prior to flow entering the loop.
+
+```
+while condition:
+    //do something
+```
+
