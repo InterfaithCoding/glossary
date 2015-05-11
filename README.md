@@ -1,13 +1,6 @@
 # glossary
 Glossary of key terms
 
-#####Variable
-
-A variable stores a piece of data, and gives it a specific name. E.g.
-```
-favouriteColor = "lime green"
-```
-
 #####Boolean
 A boolean is like a light switch. It can only have two values. Just like a light switch can only be on or off, a boolean can only be True or False.
 
@@ -22,6 +15,11 @@ Exponentiation is a maths operator that raises a number to a power of another nu
 
 #####Modulo
 Modulo returns the remainder from a division. So, if you type 3 % 2, it will return 1, because 2 goes into 3 evenly once, with 1 left over.
+
+
+#####Printing
+print simply displays your code in the console.
+
 
 #####Strings
 Strings are extremely useful data types, used to contain text. A string can contain letters, numbers, and symbols. Strings need to be within quotes.
@@ -44,9 +42,13 @@ Certain methods can be used on many data types and some are string specific. Tho
 "PYTHON".lower()
 "python".upper()
 ```
-
-#####Printing
-print simply displays your code in the console.
-
 #####String concatenation 
 The + operator between strings will 'add' them together, one after the other. Combining strings together like this is called concatenation. Sometimes you need to combine a string with something that isn't a string. In order to do that, you have to convert the non-string into a string. The str() method converts non-strings into strings. 
+
+#####Variable
+
+A variable stores a piece of data, and gives it a specific name. Think of it like a box that contains a value. 
+```
+favouriteColor = "lime green"
+```
+
