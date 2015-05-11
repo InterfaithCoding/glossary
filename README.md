@@ -14,7 +14,7 @@ These compare statements and result in boolean values. There are three boolean o
 Order of operations:
 ```not``` is evaluated first;
 ```and``` is evaluated next;
-```or``` is evaluated last.
+```or``` is evaluated last. Brackets () ensure your expressions are evaluated in the order you want. 
 
 #####Comments
 The # sign is for comments. A comment is a line of text that Python won't try to run as code. It's just for humans to read.
@@ -44,6 +44,25 @@ Exponentiation is a maths operator that raises a number to a power of another nu
 ```
 4**2
 ```
+
+#####If statements
+```if``` is a conditional statement that executes some specified code after checking if its expression is True.
+
+```
+if 8 < 9:
+    print "Eight is less than nine!"
+```
+
+In general terms this can be written
+
+```
+if some_function():
+    # block line one
+    # block line two
+    # et cetera
+```
+
+In the event that some_function() returns True, then the indented block of code after it will be executed. In the event that it returns False, then the indented block will be skipped.
 
 #####Modulo
 Modulo returns the remainder from a division. So, if you type 3 % 2, it will return 1, because 2 goes into 3 evenly once, with 1 left over.
