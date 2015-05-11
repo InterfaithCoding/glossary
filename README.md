@@ -16,7 +16,7 @@ Order of operations:
 ```or``` is evaluated last. Brackets () ensure your expressions are evaluated in the order you want. 
 
 #####Comments
-The # sign is for comments. A comment is a line of text that Python won't try to run as code. It's just for humans to read.
+The ```#``` sign is for comments. A comment is a line of text that Python won't try to run as code. It's just for humans to read.
 
 #####Comparators 
 Comparators check if a value is (or is not) equal to, greater than (or equal to), or less than (or equal to) another value. Comparisons result in either True or False, which are booleans.
